@@ -2,7 +2,9 @@
 ---
 ## Overview:
 This project is focused on the development of a predictive credit risk model for SVI Bank Limited, aimed at enhancing the bank's ability to make data-driven lending decisions, particularly in the domain of subprime mortgages. The bank faces the challenge of assessing loan applications from individuals with poor or limited credit histories, making traditional credit scoring methods less reliable. Subprime mortgages, which are extended to high-risk borrowers, require a nuanced approach to balance risk and profitability.
+
 To address this, we propose the use of a classification model (logistic regression), to predict the likelihood of a loan's repayment status (good or bad) based on a range of financial variables captured at the time of the loan application. The objective is to build a robust, accurate model capable of identifying profitable loan applicants while minimizing the exposure to potential defaults.
+
 Given that SVI Bank wants the solution to consider both profitability and market expansion as key objectives. Maximizing profits involves accepting loans that have a high probability of repayment while expanding market share requires the bank to take on more risk by approving loans with lower repayment probabilities.
 
 In this project, we have utilized a dataset, which contains historical customer data of SVI Bank. The dataset includes metrics such as:
